@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
-    <string name="app_name">Football Scores</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name" translatable="false">Football Scores</string>
     <string name="action_settings">Settings</string>
-    <string name="test_text">Test</string>
     <string name="today">Today</string>
     <string name="yesterday">Yesterday</string>
     <string name="tomorrow">Tomorrow</string>
-    <string name="champions_league">UEFA Champions League</string>
-    <string name="bundesliga">Bundesliga</string>
-    <string name="premierleague">Premier League</string>
-    <string name="primeradivison">Primera Division</string>
-    <string name="seriaa">Serie A</string>
-    <string name="matchday_text">Match day</string>
-    <string name="group_stage_text">Group stages</string>
-    <string name="first_knockout_round">First knockout round</string>
-    <string name="quarter_final">Quarter Final</string>
-    <string name="semi_final">Semi Final</string>
-    <string name="final_text">Final</string>
     <string name="share_text">Share</string>
     <string name="about">About</string>
     <string name="title_activity_about">AboutActivity</string>
@@ -33,6 +20,40 @@
         During the off season, fake data will be added to the app.
     </string>
     <string name="widget_text">This is a widget probably.</string>
-    <string name="api_key"></string>
+    <string name="api_key" translatable="false">9c38ac4478da421691d426f95c91ef40</string>
     <string name="dummy_data">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}</string>
+    <string name="hashtag" translatable="false">#Football_Scores</string>
+
+    <!--Leagues-->
+    <string name="league_serie_a" translatable="false">Serie A</string>
+    <string name="league_premier" translatable="false">Premier League</string>
+    <string name="league_champions" translatable="false">UEFA Champions League</string>
+    <string name="league_la_liga" translatable="false">La Liga</string>
+    <string name="league_bundesliga" translatable="false">Bundesliga</string>
+    <string name="league_eredivise" translatable="false">Eredivise</string>
+    <string name="league_superliga" translatable="false">Superliga</string>
+    <string name="league_ligue1" translatable="false">Ligue 1</string>
+    <string name="league_unknown">Not known League Please report</string>
+
+    <!--Champions League stages-->
+    <string name="champions_stage_groups">Group Stages, Match day: <xliff:g example="1" id="matchday">%1$s</xliff:g> </string>
+    <string name="champions_stage_first">First Knockout round</string>
+    <string name="champions_stage_quarterfinal">QuarterFinal</string>
+    <string name="champions_stage_semifinal">SemiFinal</string>
+    <string name="champions_stage_final">Final</string>
+
+    <string name="match_day">Match day: <xliff:g example="1" id="matchday">%1$s</xliff:g></string>
+    <string name="title_widget_single_match">Single match</string>
+    <string name="empty_list">No games today</string>
+    <string name="title_widget_collection">Today games</string>
+
+    <!-- A11y -->
+    <string name="a11y_home_team">Home team: <xliff:g id="home_team">%1$s</xliff:g></string>
+    <string name="a11y_away_team">Away team: <xliff:g id="away_team">%1$s</xliff:g></string>
+    <string name="a11y_game_time">Time: <xliff:g id="game_time">%1$s</xliff:g> hours <xliff:g id="game_time_min">%2$s</xliff:g> minutes</string>
+    <string name="a11y_game_score">Score: <xliff:g id="game_score">%1$s</xliff:g></string>
+    <string name="a11y_game_share">Share game: <xliff:g id="game_share">%1$s</xliff:g></string>
+    <string name="a11y_game_championship">Championship: <xliff:g id="game_championship">%1$s</xliff:g></string>
+
+
 </resources>
