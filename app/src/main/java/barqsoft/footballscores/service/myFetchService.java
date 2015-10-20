@@ -103,6 +103,7 @@ public class myFetchService extends IntentService {
         }
         try {
             if (JSON_data != null) {
+                //EXTRAS FOR EXCEED SPECIFICATIONS: Removed creation of JSONArray matches
                 processJSONdata(JSON_data, getApplicationContext(), true);
             } else {
                 //Could not Connect

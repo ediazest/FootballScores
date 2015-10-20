@@ -74,6 +74,8 @@ public class MainScreenFragment extends Fragment implements LoaderManager.Loader
                 null, null, fragmentDate, null);
     }
 
+    //EXTRAS FOR EXCEED SPECIFICATIONS: Saving fragmentDate to prevent crash when changing orientation
+    //While creating query arguments cannot be null
     @Override
     public void onSaveInstanceState(Bundle outState) {
         if (fragmentDate[0] != null)
